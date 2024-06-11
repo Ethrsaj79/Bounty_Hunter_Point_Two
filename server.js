@@ -32,7 +32,7 @@ connectedDB()
     // Purely Express-based backend functionality
 // app.use("/api/bounties", require("./routes/bountyRouter/ExpressRouter.js"))
     // Mongoose-based async backend functionality
-app.use("/api/bounties", require("./routes/bountyRouter/mongooseRouter.js"))
+app.use("/api/bounties", require("./routes/mongooseRouter.js"))
 
 // Error Handling
 
