@@ -2,7 +2,7 @@ const express = require("express")
 const mongooseRouter = express.Router()
 const morgan = require("morgan")
 // Capitalize all Mongoose Model variables to indicate that they are Mongoose Models
-const Poster =  require('../../models/poster.js');
+const Poster =  require('../models/poster.js')
 
 
 mongooseRouter.use(express.json())
